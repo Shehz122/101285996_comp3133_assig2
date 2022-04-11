@@ -1,0 +1,21 @@
+.col-md-6{
+    position: relative;
+}
+.card{
+    border: none;
+    width: 500px;
+    padding: 40px;
+    margin-top: 50px;
+    /* transform: translate(-50%, 50%); */
+    background: rgb(112, 66, 41);
+    position: absolute;
+    left: 50%;
+}
+
+.card h1, h6{
+    color: rgb(38, 178, 80);
+}
+
+label{
+    color: rgb(39, 176, 73);
+}
