@@ -1,13 +1,13 @@
 import { TestBed } from '@angular/core/testing';
 
-import { GraphqlapiService } from './graphmodels.service';
+import { GraphmodelService } from './graphmodels.service';
 
 describe('GraphqlapiService', () => {
-  let service: GraphqlapiService;
+  let service: GraphmodelService;
 
   beforeEach(() => {
     TestBed.configureTestingModule({});
-    service = TestBed.inject(GraphqlapiService);
+    service = TestBed.inject(GraphmodelService);
   });
 
   it('should be created', () => {

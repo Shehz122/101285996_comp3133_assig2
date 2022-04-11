@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
-import { GraphqlapiService } from '../graphmodels.service';
+import { GraphmodelService } from '../graphmodels.service';
 import { Router } from '@angular/router';
 
 
@@ -21,7 +21,7 @@ export class LoginComponent implements OnInit {
 
   hide = true;
 
-  constructor( private db: GraphqlapiService, private router: Router) { }
+  constructor( private db: GraphmodelService, private router: Router) { }
 
   ngOnInit(): void {
   }

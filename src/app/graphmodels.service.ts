@@ -5,7 +5,7 @@ import { Apollo, gql } from 'apollo-angular';
 @Injectable({
   providedIn: 'root'
 })
-export class GraphqlapiService {
+export class GraphmodelService {
 
   constructor(private apollo: Apollo) { }
 

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {GraphqlapiService} from '../graphmodels.service'
+import {GraphmodelService} from '../graphmodels.service'
 import { FormBuilder, FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
@@ -56,7 +56,7 @@ export class SignupComponent implements OnInit {
     }
   }
 
-  constructor(private db: GraphqlapiService, private router: Router) { 
+  constructor(private db: GraphmodelService, private router: Router) { 
 
     this.username = localStorage.getItem('username');
   

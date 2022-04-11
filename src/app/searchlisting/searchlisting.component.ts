@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GraphqlapiService } from '../graphmodels.service';
+import { GraphmodelService } from '../graphmodels.service';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 import { Router } from '@angular/router';
 
@@ -24,7 +24,7 @@ export class SearchlistingComponent implements OnInit {
 
   allListing: any;
 
-  constructor( private db: GraphqlapiService, private router: Router) {
+  constructor( private db: GraphmodelService, private router: Router) {
     
   this.searchForm = new FormGroup({
 

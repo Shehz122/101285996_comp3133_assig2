@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GraphqlapiService } from '../graphmodels.service';
+import { GraphmodelService } from '../graphmodels.service';
 import { ActivatedRoute, Router } from '@angular/router';
 import { FormControl, FormGroup, Validators } from '@angular/forms';
 
@@ -16,7 +16,7 @@ export class BookinglistingComponent implements OnInit {
   
   username: any;
 
-  constructor( private db: GraphqlapiService, private router: Router) { 
+  constructor( private db: GraphmodelService, private router: Router) { 
 
     this.userType = localStorage.getItem('type');
     

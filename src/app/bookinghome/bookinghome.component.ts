@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { GraphqlapiService } from '../graphmodels.service';
+import { GraphmodelService } from '../graphmodels.service';
 import { Router } from '@angular/router';
 
 @Component({
@@ -12,7 +12,7 @@ export class BookinghomeComponent implements OnInit {
 
   loginStatus: boolean = false;
 
-  constructor( private db: GraphqlapiService, private router : Router) { }
+  constructor( private db: GraphmodelService, private router : Router) { }
 
   ngOnInit(): void {
 
